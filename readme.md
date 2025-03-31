@@ -1,4 +1,4 @@
-# sly ref prototype
+# Sly Ref - Prototype
 
 <img src="docs/images/screenshot.png" width="500">
 
@@ -141,7 +141,9 @@ source ../ComfyUI/.venv/bin/activate
 python ../ComfyUI/main.py --lowvram --output-directory art/output --user-directory art/user --input-directory art/input
 ```
 
-You should be able to open ComfyUI ```http://127.0.0.1:8188/``` and start by trying few workflows in [workspaces](art/user/default/workflows/) though you will have to use ComfyUI-Manager to install missing stuff, download missing models from [Hugging Face](https://huggingface.co/) and [civitai]https://civitai.com/
+You should be able to open ComfyUI ```http://127.0.0.1:8188/``` and start by trying few workflows in [workspaces](art/user/default/workflows/) though you will have to use ComfyUI-Manager to install missing stuff, download missing models from [Hugging Face](https://huggingface.co/) and [civitai](https://civitai.com/)
+
+I would start with the [lora workflow](art/user/default/workflows/lora.json)
 
 # Finally
 
@@ -149,5 +151,5 @@ Assuming you got this far, you can run sly_ref, it uses workflows saved as json 
 
 Then start sly_ref, see [actions](src/actions.rs) for keymappings. 
 
-GL
+Good Luck
 
