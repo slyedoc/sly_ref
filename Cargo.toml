@@ -1,0 +1,39 @@
+[package]
+name = "sly_ref"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = ["bevy/file_watcher", "bevy/asset_processor"]
+
+[dependencies]
+bevy =  { version = "0.16.0-rc" }
+avian3d = { git = "https://github.com/Jondolf/avian/", branch = "main" }
+bevy-inspector-egui = { git = "https://github.com/slyedoc/bevy-inspector-egui", branch = "bevy_0.16" , features = [
+    "bevy_pbr",
+    "highlight_changes",
+] }
+bevy_health_bar3d = { git = "https://github.com/slyedoc/bevy_health_bar3d", branch = "bevy_0.16" }
+bevy-tokio-tasks = { git = "https://github.com/slyedoc/bevy-tokio-tasks" }
+bevy_rand = { git = "https://github.com/Bluefinger/bevy_rand", branch = "prepare-v0.16" }
+bevy_prng = { git = "https://github.com/Bluefinger/bevy_rand", branch = "prepare-v0.16", features = ["wyrand"] }
+rand = "0.8"
+
+bevy_enhanced_input = { git = "https://github.com/slyedoc/bevy_enhanced_input", branch = "component-based-api-0.16", features = ["egui_priority"] }
+
+ron = { version = "0.8" }
+strum = { version = "0.26", features = ["derive"] }
+strum_macros = "0.26"
+serde = { version = "1.0", features = ["derive"] } 
+
+serde_json = { version = "1.0" }
+wl-clipboard-rs = "0.9.2"
+
+tokio = { version = "1", features = ["full"] }
+tokio-tungstenite = "*"
+tokio-util = { version = "0.7", features = ["full"] }
+
+url = { version = "2.5" }
+uuid = { version = "1", features = ["v4"] }
+reqwest = { version = "*", features = [ "json", "stream", "multipart"] }
+

@@ -1,0 +1,767 @@
+## ComfyUI-Manager: installing dependencies done.
+[2025-03-31 00:46:02.087] ** ComfyUI startup time: 2025-03-31 00:46:02.087
+[2025-03-31 00:46:02.087] ** Platform: Linux
+[2025-03-31 00:46:02.087] ** Python version: 3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]
+[2025-03-31 00:46:02.087] ** Python executable: /home/slyedoc/code/p/ComfyUI/.venv/bin/python
+[2025-03-31 00:46:02.087] ** ComfyUI Path: /home/slyedoc/code/p/ComfyUI
+[2025-03-31 00:46:02.087] ** ComfyUI Base Folder Path: /home/slyedoc/code/p/ComfyUI
+[2025-03-31 00:46:02.087] ** User directory: /home/slyedoc/code/p/sly_ref/art/user
+[2025-03-31 00:46:02.087] ** ComfyUI-Manager config path: /home/slyedoc/code/p/sly_ref/art/user/default/ComfyUI-Manager/config.ini
+[2025-03-31 00:46:02.087] ** Log path: /home/slyedoc/code/p/sly_ref/art/user/comfyui.log
+
+Prestartup times for custom nodes:
+[2025-03-31 00:46:02.871]    0.0 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/rgthree-comfy
+[2025-03-31 00:46:02.871]    0.0 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/comfyui-easy-use
+[2025-03-31 00:46:02.871]    1.6 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/comfyui-manager
+[2025-03-31 00:46:02.871] 
+[2025-03-31 00:46:03.590] Checkpoint files will always be loaded safely.
+[2025-03-31 00:46:03.830] Total VRAM 10821 MB, total RAM 64080 MB
+[2025-03-31 00:46:03.830] pytorch version: 2.6.0+cu124
+[2025-03-31 00:46:04.500] xformers version: 0.0.29.post2
+[2025-03-31 00:46:04.500] Set vram state to: NORMAL_VRAM
+[2025-03-31 00:46:04.500] Device: cuda:0 NVIDIA GeForce RTX 2080 Ti : cudaMallocAsync
+[2025-03-31 00:46:04.632] Using xformers attention
+[2025-03-31 00:46:04.929] ComfyUI version: 0.3.26
+[2025-03-31 00:46:04.931] ComfyUI frontend version: 1.12.14
+[2025-03-31 00:46:04.931] [Prompt Server] web root: /home/slyedoc/code/p/ComfyUI/.venv/lib/python3.12/site-packages/comfyui_frontend_package/static
+[2025-03-31 00:46:05.811] 
+[2025-03-31 00:46:05.811] [92m[rgthree-comfy] Loaded 42 magnificent nodes. 🎉[00m
+[2025-03-31 00:46:05.811] 
+[2025-03-31 00:46:05.854] [34m[ComfyUI-Easy-Use] server: [0mv1.2.8 [92mLoaded[0m
+[2025-03-31 00:46:05.854] [34m[ComfyUI-Easy-Use] web root: [0m/home/slyedoc/code/p/ComfyUI/custom_nodes/comfyui-easy-use/web_version/v2 [92mLoaded[0m
+[2025-03-31 00:46:05.855] ### Loading: ComfyUI-Impact-Pack (V8.10)
+[2025-03-31 00:46:05.873] [Impact Pack] Wildcards loading done.
+[2025-03-31 00:46:05.875] ### Loading: ComfyUI-Manager (V3.31.8)
+[2025-03-31 00:46:05.875] [ComfyUI-Manager] network_mode: public
+[2025-03-31 00:46:05.902] ### ComfyUI Version: v0.2.2-624-g3b19fc76 | Released on '2025-03-18'
+[2025-03-31 00:46:05.950] ### Loading: ComfyUI-Impact-Subpack (V1.2.9)
+[2025-03-31 00:46:06.004] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2025-03-31 00:46:06.038] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2025-03-31 00:46:06.102] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2025-03-31 00:46:06.140] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2025-03-31 00:46:06.229] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2025-03-31 00:46:06.279] [Impact Subpack] ultralytics_bbox: /home/slyedoc/code/p/ComfyUI/models/ultralytics/bbox
+[2025-03-31 00:46:06.279] [Impact Subpack] ultralytics_segm: /home/slyedoc/code/p/ComfyUI/models/ultralytics/segm
+[2025-03-31 00:46:06.282] Total VRAM 10821 MB, total RAM 64080 MB
+[2025-03-31 00:46:06.282] pytorch version: 2.6.0+cu124
+[2025-03-31 00:46:06.282] xformers version: 0.0.29.post2
+[2025-03-31 00:46:06.282] Set vram state to: NORMAL_VRAM
+[2025-03-31 00:46:06.282] Device: cuda:0 NVIDIA GeForce RTX 2080 Ti : cudaMallocAsync
+[2025-03-31 00:46:06.838] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2025-03-31 00:46:06.838] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/home/slyedoc/code/p/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2025-03-31 00:46:07.152] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m220[0m [32mnodes successfully.[0m
+[2025-03-31 00:46:07.152] 
+	[3m[93m"Art should disturb the comfortable and comfort the disturbed." - Cesar Cruz[0m
+[2025-03-31 00:46:07.152] 
+[2025-03-31 00:46:07.162] ------------------------------------------
+[2025-03-31 00:46:07.162] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2025-03-31 00:46:07.162] ------------------------------------------
+[2025-03-31 00:46:07.162] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2025-03-31 00:46:07.162] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2025-03-31 00:46:07.162] ------------------------------------------
+[2025-03-31 00:46:07.164] 
+Import times for custom nodes:
+[2025-03-31 00:46:07.164]    0.0 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/comfyui-mxtoolkit
+[2025-03-31 00:46:07.164]    0.0 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/comfyui-detail-daemon
+[2025-03-31 00:46:07.164]    0.0 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/comfyui-fitsize
+[2025-03-31 00:46:07.164]    0.0 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/websocket_image_save.py
+[2025-03-31 00:46:07.164]    0.0 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/comfyui-tooling-nodes
+[2025-03-31 00:46:07.164]    0.0 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/ComfyUI_essentials
+[2025-03-31 00:46:07.164]    0.0 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/rgthree-comfy
+[2025-03-31 00:46:07.164]    0.0 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/ComfyUI-KJNodes
+[2025-03-31 00:46:07.164]    0.0 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes
+[2025-03-31 00:46:07.164]    0.0 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/comfyui-impact-pack
+[2025-03-31 00:46:07.164]    0.0 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/comfyui-manager
+[2025-03-31 00:46:07.164]    0.0 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/ComfyUI-MVAdapter
+[2025-03-31 00:46:07.164]    0.0 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/comfyui-easy-use
+[2025-03-31 00:46:07.164]    0.3 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/ComfyUI-Impact-Subpack
+[2025-03-31 00:46:07.164]    0.6 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/ComfyUI-Hunyuan3DWrapper
+[2025-03-31 00:46:07.164]    0.9 seconds: /home/slyedoc/code/p/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2025-03-31 00:46:07.164] 
+[2025-03-31 00:46:07.170] Starting server
+
+[2025-03-31 00:46:07.170] To see the GUI go to: http://127.0.0.1:8188
+[2025-03-31 00:46:09.230] FETCH ComfyRegistry Data: 5/80
+[2025-03-31 00:46:12.537] FETCH ComfyRegistry Data: 10/80
+[2025-03-31 00:46:16.126] FETCH ComfyRegistry Data: 15/80
+[2025-03-31 00:46:19.411] FETCH ComfyRegistry Data: 20/80
+[2025-03-31 00:46:22.935] FETCH ComfyRegistry Data: 25/80
+[2025-03-31 00:46:26.340] FETCH ComfyRegistry Data: 30/80
+[2025-03-31 00:46:29.648] FETCH ComfyRegistry Data: 35/80
+[2025-03-31 00:46:32.927] FETCH ComfyRegistry Data: 40/80
+[2025-03-31 00:46:36.206] FETCH ComfyRegistry Data: 45/80
+[2025-03-31 00:46:39.521] FETCH ComfyRegistry Data: 50/80
+[2025-03-31 00:46:42.797] FETCH ComfyRegistry Data: 55/80
+[2025-03-31 00:46:46.085] FETCH ComfyRegistry Data: 60/80
+[2025-03-31 00:46:49.347] FETCH ComfyRegistry Data: 65/80
+[2025-03-31 00:46:52.769] FETCH ComfyRegistry Data: 70/80
+[2025-03-31 00:46:56.114] FETCH ComfyRegistry Data: 75/80
+[2025-03-31 00:46:59.380] FETCH ComfyRegistry Data: 80/80
+[2025-03-31 00:46:59.880] FETCH ComfyRegistry Data [DONE]
+[2025-03-31 00:46:59.921] [ComfyUI-Manager] default cache updated: https://api.comfy.org/nodes
+[2025-03-31 00:46:59.927] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
+[2025-03-31 00:47:00.013] [ComfyUI-Manager] All startup tasks have been completed.
+[2025-03-31 00:49:44.584] [view] query: <MultiDictProxy('type': 'input', 'filename': 'house.png', 'subfolder': '', 'rand': '0.5701132772178881')>
+[2025-03-31 00:49:44.584] [view] filename: house.png
+[2025-03-31 00:49:44.584] [view] output_dir: None
+[2025-03-31 00:49:44.584] [view] type: input
+[2025-03-31 00:49:44.584] [view] type: /home/slyedoc/code/p/sly_ref/art/input
+[2025-03-31 00:49:44.584] [view] output_dir: /home/slyedoc/code/p/sly_ref/art/input
+[2025-03-31 00:49:44.585] [view] full output_dir: /home/slyedoc/code/p/sly_ref/art/input/
+[2025-03-31 00:49:44.585] [view] filename: house.png
+[2025-03-31 00:49:44.585] [view] file: /home/slyedoc/code/p/sly_ref/art/input/house.png
+[2025-03-31 00:49:44.645] [view] query: <MultiDictProxy('type': 'input', 'filename': 'house.png', 'subfolder': '', 'rand': '0.5701132772178881')>
+[2025-03-31 00:49:44.645] [view] filename: house.png
+[2025-03-31 00:49:44.645] [view] output_dir: None
+[2025-03-31 00:49:44.645] [view] type: input
+[2025-03-31 00:49:44.646] [view] type: /home/slyedoc/code/p/sly_ref/art/input
+[2025-03-31 00:49:44.646] [view] output_dir: /home/slyedoc/code/p/sly_ref/art/input
+[2025-03-31 00:49:44.646] [view] full output_dir: /home/slyedoc/code/p/sly_ref/art/input/
+[2025-03-31 00:49:44.646] [view] filename: house.png
+[2025-03-31 00:49:44.646] [view] file: /home/slyedoc/code/p/sly_ref/art/input/house.png
+[2025-03-31 01:04:41.518] got prompt
+[2025-03-31 01:04:41.841] /home/slyedoc/code/p/ComfyUI/.venv/lib/python3.12/site-packages/albumentations/__init__.py:13: UserWarning: A new version of Albumentations is available: 2.0.5 (you have 1.4.15). Upgrade using: pip install -U albumentations. To disable automatic update checks, set the environment variable NO_ALBUMENTATIONS_UPDATE to 1.
+  check_for_updates()
+[2025-03-31 01:04:42.227] /home/slyedoc/code/p/ComfyUI/.venv/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[2025-03-31 01:04:44.200] Settings -> Mode=base, Device=cuda:0, Torchscript=enabled
+[2025-03-31 01:04:45.223] Loading pipeline components...: 100%|█████████| 6/6 [00:00<00:00, 18.73it/s]
+[2025-03-31 01:04:46.400] Loading model from /home/slyedoc/code/p/ComfyUI/models/diffusion_models/hy3dgen/hunyuan3d-dit-v2-0-fp16.safetensors
+[2025-03-31 01:04:49.268] guidance:  None
+[2025-03-31 01:05:21.015] Diffusion Sampling:: 100%|██████████████████| 50/50 [00:31<00:00,  1.56it/s]Diffusion Sampling:: 100%|██████████████████| 50/50 [00:31<00:00,  1.57it/s]
+[2025-03-31 01:05:21.015] latents shape:  torch.Size([1, 3072, 64])
+[2025-03-31 01:05:21.016] Allocated memory: memory=2.453 GB
+[2025-03-31 01:05:21.016] Max allocated memory: max_memory=4.638 GB
+[2025-03-31 01:05:21.016] Max reserved memory: max_reserved=4.656 GB
+[2025-03-31 01:05:22.258] 2025-03-31 01:05:22,258 - hy3dgen.shapgen - INFO - FlashVDMVolumeDecoding Resolution: [95, 190, 380]
+[2025-03-31 01:05:22.258] FlashVDMVolumeDecoding Resolution: [95, 190, 380]
+[2025-03-31 01:05:22.392] FlashVDM Volume Decoding: 100%|████████████| 32/32 [00:00<00:00, 469.06it/s]
+[2025-03-31 01:05:25.046] MC Surface Extractor
+[2025-03-31 01:05:26.501] Decoded mesh with 353044 vertices and 1361796 faces
+[2025-03-31 01:05:27.006] Removed floaters, resulting in 353044 vertices and 706084 faces
+[2025-03-31 01:05:27.425] Removed degenerate faces, resulting in 353044 vertices and 706084 faces
+[2025-03-31 01:05:33.585] Reduced faces, resulting in 25002 vertices and 50000 faces
+[2025-03-31 01:05:48.307] camera_distance: 1.45
+[2025-03-31 01:05:48.712] image in shape torch.Size([1, 512, 512, 3])
+[2025-03-31 01:05:51.996] 100%|███████████████████████████████████████| 50/50 [00:02<00:00, 16.98it/s]
+[2025-03-31 01:06:14.259] 100%|███████████████████████████████████████| 25/25 [00:20<00:00,  1.27it/s]100%|███████████████████████████████████████| 25/25 [00:20<00:00,  1.20it/s]
+[2025-03-31 01:06:19.475] Prompt executed in 97.96 seconds
+[2025-03-31 01:06:19.716] [view] query: <MultiDictProxy('filename': 'Bevy_00001_.glb', 'subfolder': '', 'type': 'output')>
+[2025-03-31 01:06:19.716] [view] filename: Bevy_00001_.glb
+[2025-03-31 01:06:19.716] [view] output_dir: None
+[2025-03-31 01:06:19.716] [view] type: output
+[2025-03-31 01:06:19.716] [view] type: /home/slyedoc/code/p/sly_ref/art/output
+[2025-03-31 01:06:19.716] [view] output_dir: /home/slyedoc/code/p/sly_ref/art/output
+[2025-03-31 01:06:19.716] [view] full output_dir: /home/slyedoc/code/p/sly_ref/art/output/
+[2025-03-31 01:06:19.716] [view] filename: Bevy_00001_.glb
+[2025-03-31 01:06:19.716] [view] file: /home/slyedoc/code/p/sly_ref/art/output/Bevy_00001_.glb
+[2025-03-31 01:06:19.716] view file_extension: .glb
+[2025-03-31 01:06:19.716] view content_type: model/gltf-binary
+[2025-03-31 01:06:27.389] got prompt
+[2025-03-31 01:06:27.574] model weight dtype torch.float16, manual cast: None
+[2025-03-31 01:06:27.574] model_type EPS
+[2025-03-31 01:06:27.967] Using xformers attention in VAE
+[2025-03-31 01:06:27.968] Using xformers attention in VAE
+[2025-03-31 01:06:28.012] VAE load device: cuda:0, offload device: cpu, dtype: torch.float32
+[2025-03-31 01:06:28.079] CLIP/text encoder model load device: cuda:0, offload device: cpu, current: cpu, dtype: torch.float16
+[2025-03-31 01:06:28.467] lora key not loaded: lora_unet_down_blocks_0_attentions_0_proj_in.alpha
+[2025-03-31 01:06:28.467] lora key not loaded: lora_unet_down_blocks_0_attentions_0_proj_in.lora_down.weight
+[2025-03-31 01:06:28.467] lora key not loaded: lora_unet_down_blocks_0_attentions_0_proj_in.lora_up.weight
+[2025-03-31 01:06:28.467] lora key not loaded: lora_unet_down_blocks_0_attentions_0_proj_out.alpha
+[2025-03-31 01:06:28.467] lora key not loaded: lora_unet_down_blocks_0_attentions_0_proj_out.lora_down.weight
+[2025-03-31 01:06:28.467] lora key not loaded: lora_unet_down_blocks_0_attentions_0_proj_out.lora_up.weight
+[2025-03-31 01:06:28.467] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_k.alpha
+[2025-03-31 01:06:28.467] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_k.lora_down.weight
+[2025-03-31 01:06:28.467] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_k.lora_up.weight
+[2025-03-31 01:06:28.467] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_out_0.alpha
+[2025-03-31 01:06:28.467] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_out_0.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_out_0.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_q.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_q.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_q.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_v.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_v.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn1_to_v.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_k.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_k.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_k.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_out_0.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_out_0.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_out_0.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_q.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_q.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_q.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_v.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_v.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_attn2_to_v.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_ff_net_0_proj.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_ff_net_0_proj.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_ff_net_0_proj.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_ff_net_2.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_ff_net_2.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_0_transformer_blocks_0_ff_net_2.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_proj_in.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_proj_in.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_proj_in.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_proj_out.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_proj_out.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_proj_out.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_k.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_k.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_k.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_out_0.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_out_0.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_out_0.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_q.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_q.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_q.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_v.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_v.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn1_to_v.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_k.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_k.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_k.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_out_0.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_out_0.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_out_0.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_q.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_q.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_q.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_v.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_v.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_attn2_to_v.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_ff_net_0_proj.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_ff_net_0_proj.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_ff_net_0_proj.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_ff_net_2.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_ff_net_2.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_down_blocks_0_attentions_1_transformer_blocks_0_ff_net_2.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_proj_in.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_proj_in.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_proj_in.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_proj_out.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_proj_out.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_proj_out.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_k.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_k.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_k.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_out_0.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_out_0.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_out_0.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_q.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_q.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_q.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_v.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_v.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn1_to_v.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_k.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_k.lora_down.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_k.lora_up.weight
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_out_0.alpha
+[2025-03-31 01:06:28.468] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_out_0.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_out_0.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_q.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_q.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_q.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_v.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_v.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_attn2_to_v.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_ff_net_0_proj.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_ff_net_0_proj.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_ff_net_0_proj.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_ff_net_2.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_ff_net_2.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_0_transformer_blocks_0_ff_net_2.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_proj_in.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_proj_in.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_proj_in.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_proj_out.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_proj_out.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_proj_out.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_k.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_k.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_k.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_out_0.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_out_0.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_out_0.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_q.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_q.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_q.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_v.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_v.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn1_to_v.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_k.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_k.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_k.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_out_0.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_out_0.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_out_0.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_q.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_q.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_q.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_v.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_v.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_attn2_to_v.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_ff_net_0_proj.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_ff_net_0_proj.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_ff_net_0_proj.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_ff_net_2.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_ff_net_2.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_1_transformer_blocks_0_ff_net_2.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_proj_in.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_proj_in.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_proj_in.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_proj_out.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_proj_out.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_proj_out.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_k.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_k.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_k.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_out_0.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_out_0.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_out_0.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_q.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_q.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_q.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_v.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_v.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn1_to_v.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_k.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_k.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_k.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_out_0.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_out_0.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_out_0.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_q.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_q.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_q.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_v.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_v.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_attn2_to_v.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_ff_net_0_proj.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_ff_net_0_proj.lora_down.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_ff_net_0_proj.lora_up.weight
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_ff_net_2.alpha
+[2025-03-31 01:06:28.469] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_ff_net_2.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_2_attentions_2_transformer_blocks_0_ff_net_2.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_proj_in.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_proj_in.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_proj_in.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_proj_out.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_proj_out.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_proj_out.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_k.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_k.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_k.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_out_0.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_out_0.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_out_0.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_q.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_q.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_q.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_v.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_v.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn1_to_v.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_k.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_k.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_k.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_out_0.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_out_0.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_out_0.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_q.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_q.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_q.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_v.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_v.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_attn2_to_v.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_ff_net_0_proj.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_ff_net_0_proj.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_ff_net_0_proj.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_ff_net_2.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_ff_net_2.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_0_transformer_blocks_0_ff_net_2.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_proj_in.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_proj_in.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_proj_in.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_proj_out.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_proj_out.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_proj_out.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_k.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_k.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_k.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_out_0.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_out_0.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_out_0.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_q.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_q.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_q.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_v.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_v.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn1_to_v.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_k.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_k.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_k.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_out_0.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_out_0.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_out_0.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_q.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_q.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_q.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_v.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_v.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_attn2_to_v.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_ff_net_0_proj.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_ff_net_0_proj.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_ff_net_0_proj.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_ff_net_2.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_ff_net_2.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_1_transformer_blocks_0_ff_net_2.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_2_proj_in.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_2_proj_in.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_2_proj_in.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_2_proj_out.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_2_proj_out.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_2_proj_out.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_k.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_k.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_k.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_out_0.alpha
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_out_0.lora_down.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_out_0.lora_up.weight
+[2025-03-31 01:06:28.470] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_q.alpha
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_q.lora_down.weight
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_q.lora_up.weight
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_v.alpha
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_v.lora_down.weight
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn1_to_v.lora_up.weight
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_k.alpha
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_k.lora_down.weight
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_k.lora_up.weight
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_out_0.alpha
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_out_0.lora_down.weight
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_out_0.lora_up.weight
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_q.alpha
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_q.lora_down.weight
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_q.lora_up.weight
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_v.alpha
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_v.lora_down.weight
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_attn2_to_v.lora_up.weight
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_ff_net_0_proj.alpha
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_ff_net_0_proj.lora_down.weight
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_ff_net_0_proj.lora_up.weight
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_ff_net_2.alpha
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_ff_net_2.lora_down.weight
+[2025-03-31 01:06:28.471] lora key not loaded: lora_unet_up_blocks_3_attentions_2_transformer_blocks_0_ff_net_2.lora_up.weight
+[2025-03-31 01:06:28.476] Requested to load SDXLClipModel
+[2025-03-31 01:06:28.844] loaded completely 8205.680418777465 1560.802734375 True
+[2025-03-31 01:06:28.940] Requested to load SDXL
+[2025-03-31 01:06:28.978] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.ff.net.0.proj.weight shape '[5120, 640]' is invalid for input of size 13107200
+[2025-03-31 01:06:28.980] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.ff.net.0.proj.weight shape '[5120, 640]' is invalid for input of size 13107200
+[2025-03-31 01:06:28.981] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.ff.net.0.proj.weight shape '[5120, 640]' is invalid for input of size 13107200
+[2025-03-31 01:06:28.985] ERROR lora diffusion_model.middle_block.1.transformer_blocks.0.attn2.to_v.weight shape '[1280, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:28.987] ERROR lora diffusion_model.middle_block.1.transformer_blocks.0.attn2.to_k.weight shape '[1280, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:28.988] ERROR lora diffusion_model.input_blocks.8.1.transformer_blocks.0.attn2.to_v.weight shape '[1280, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:28.989] ERROR lora diffusion_model.input_blocks.8.1.transformer_blocks.0.attn2.to_k.weight shape '[1280, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:28.990] ERROR lora diffusion_model.input_blocks.7.1.transformer_blocks.0.attn2.to_v.weight shape '[1280, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:28.991] ERROR lora diffusion_model.input_blocks.7.1.transformer_blocks.0.attn2.to_k.weight shape '[1280, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:29.001] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.ff.net.2.weight shape '[640, 2560]' is invalid for input of size 6553600
+[2025-03-31 01:06:29.002] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.ff.net.2.weight shape '[640, 2560]' is invalid for input of size 6553600
+[2025-03-31 01:06:29.003] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.ff.net.2.weight shape '[640, 2560]' is invalid for input of size 6553600
+[2025-03-31 01:06:29.015] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:29.016] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:29.016] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:29.017] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:29.018] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:29.018] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:29.019] ERROR lora diffusion_model.input_blocks.5.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:06:29.019] ERROR lora diffusion_model.input_blocks.5.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:06:29.020] ERROR lora diffusion_model.input_blocks.4.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:06:29.021] ERROR lora diffusion_model.input_blocks.4.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:06:29.021] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.021] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.022] ERROR lora diffusion_model.output_blocks.5.1.proj_out.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.022] ERROR lora diffusion_model.output_blocks.5.1.proj_in.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.022] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.023] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.023] ERROR lora diffusion_model.output_blocks.4.1.proj_out.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.023] ERROR lora diffusion_model.output_blocks.4.1.proj_in.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.024] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.024] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.024] ERROR lora diffusion_model.output_blocks.3.1.proj_out.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.025] ERROR lora diffusion_model.output_blocks.3.1.proj_in.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.027] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.028] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_v.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.028] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.028] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_k.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.029] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.029] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_v.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.029] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.030] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_k.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.030] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.030] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_v.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.031] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.031] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_k.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:29.982] loaded completely 6644.877558517456 4897.0483474731445 True
+[2025-03-31 01:06:36.732] 100%|███████████████████████████████████████| 30/30 [00:06<00:00,  4.49it/s]100%|███████████████████████████████████████| 30/30 [00:06<00:00,  4.45it/s]
+[2025-03-31 01:06:36.732] Requested to load AutoencoderKL
+[2025-03-31 01:06:37.327] loaded completely 351.77440071105957 319.11416244506836 True
+[2025-03-31 01:06:37.797] Prompt executed in 10.41 seconds
+[2025-03-31 01:06:37.959] [view] query: <MultiDictProxy('filename': 'Bevy_00002_.png', 'subfolder': '', 'type': 'output')>
+[2025-03-31 01:06:37.959] [view] filename: Bevy_00002_.png
+[2025-03-31 01:06:37.959] [view] output_dir: None
+[2025-03-31 01:06:37.959] [view] type: output
+[2025-03-31 01:06:37.959] [view] type: /home/slyedoc/code/p/sly_ref/art/output
+[2025-03-31 01:06:37.959] [view] output_dir: /home/slyedoc/code/p/sly_ref/art/output
+[2025-03-31 01:06:37.959] [view] full output_dir: /home/slyedoc/code/p/sly_ref/art/output/
+[2025-03-31 01:06:37.959] [view] filename: Bevy_00002_.png
+[2025-03-31 01:06:37.959] [view] file: /home/slyedoc/code/p/sly_ref/art/output/Bevy_00002_.png
+[2025-03-31 01:06:37.959] view file_extension: .png
+[2025-03-31 01:06:37.960] view content_type: image/png
+[2025-03-31 01:06:47.846] got prompt
+[2025-03-31 01:06:47.891] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.ff.net.2.weight shape '[640, 2560]' is invalid for input of size 6553600
+[2025-03-31 01:06:47.892] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.ff.net.2.weight shape '[640, 2560]' is invalid for input of size 6553600
+[2025-03-31 01:06:47.893] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.ff.net.2.weight shape '[640, 2560]' is invalid for input of size 6553600
+[2025-03-31 01:06:47.908] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:47.908] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:47.909] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:47.910] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:47.910] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:47.911] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:47.912] ERROR lora diffusion_model.input_blocks.5.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:06:47.912] ERROR lora diffusion_model.input_blocks.5.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:06:47.913] ERROR lora diffusion_model.input_blocks.4.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:06:47.913] ERROR lora diffusion_model.input_blocks.4.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:06:47.914] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.915] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.915] ERROR lora diffusion_model.output_blocks.5.1.proj_out.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.916] ERROR lora diffusion_model.output_blocks.5.1.proj_in.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.916] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.916] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.917] ERROR lora diffusion_model.output_blocks.4.1.proj_out.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.917] ERROR lora diffusion_model.output_blocks.4.1.proj_in.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.917] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.918] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.918] ERROR lora diffusion_model.output_blocks.3.1.proj_out.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.919] ERROR lora diffusion_model.output_blocks.3.1.proj_in.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.922] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.922] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_v.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.923] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.923] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_k.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.924] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.924] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_v.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.924] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.925] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_k.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.925] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.925] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_v.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.926] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:47.926] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_k.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:48.145] loaded completely 8049.425831604004 4897.0483474731445 True
+[2025-03-31 01:06:54.876] 100%|███████████████████████████████████████| 30/30 [00:06<00:00,  4.45it/s]100%|███████████████████████████████████████| 30/30 [00:06<00:00,  4.46it/s]
+[2025-03-31 01:06:55.056] 0 models unloaded.
+[2025-03-31 01:06:55.526] Prompt executed in 7.68 seconds
+[2025-03-31 01:06:55.675] [view] query: <MultiDictProxy('filename': 'Bevy_00003_.png', 'subfolder': '', 'type': 'output')>
+[2025-03-31 01:06:55.675] [view] filename: Bevy_00003_.png
+[2025-03-31 01:06:55.675] [view] output_dir: None
+[2025-03-31 01:06:55.675] [view] type: output
+[2025-03-31 01:06:55.675] [view] type: /home/slyedoc/code/p/sly_ref/art/output
+[2025-03-31 01:06:55.675] [view] output_dir: /home/slyedoc/code/p/sly_ref/art/output
+[2025-03-31 01:06:55.675] [view] full output_dir: /home/slyedoc/code/p/sly_ref/art/output/
+[2025-03-31 01:06:55.675] [view] filename: Bevy_00003_.png
+[2025-03-31 01:06:55.675] [view] file: /home/slyedoc/code/p/sly_ref/art/output/Bevy_00003_.png
+[2025-03-31 01:06:55.675] view file_extension: .png
+[2025-03-31 01:06:55.675] view content_type: image/png
+[2025-03-31 01:06:58.847] got prompt
+[2025-03-31 01:06:58.873] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.ff.net.2.weight shape '[640, 2560]' is invalid for input of size 6553600
+[2025-03-31 01:06:58.874] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.ff.net.2.weight shape '[640, 2560]' is invalid for input of size 6553600
+[2025-03-31 01:06:58.875] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.ff.net.2.weight shape '[640, 2560]' is invalid for input of size 6553600
+[2025-03-31 01:06:58.889] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:58.890] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:58.891] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:58.891] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:58.892] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:58.893] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:06:58.893] ERROR lora diffusion_model.input_blocks.5.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:06:58.894] ERROR lora diffusion_model.input_blocks.5.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:06:58.895] ERROR lora diffusion_model.input_blocks.4.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:06:58.895] ERROR lora diffusion_model.input_blocks.4.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:06:58.896] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.896] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.896] ERROR lora diffusion_model.output_blocks.5.1.proj_out.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.897] ERROR lora diffusion_model.output_blocks.5.1.proj_in.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.897] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.897] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.898] ERROR lora diffusion_model.output_blocks.4.1.proj_out.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.898] ERROR lora diffusion_model.output_blocks.4.1.proj_in.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.899] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.900] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.900] ERROR lora diffusion_model.output_blocks.3.1.proj_out.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.900] ERROR lora diffusion_model.output_blocks.3.1.proj_in.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.903] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.903] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_v.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.904] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.904] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_k.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.904] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.905] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_v.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.905] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.906] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_k.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.906] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.906] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_v.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.907] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:58.907] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_k.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:06:59.089] loaded completely 8056.925831604004 4897.0483474731445 True
+[2025-03-31 01:07:05.853] 100%|███████████████████████████████████████| 30/30 [00:06<00:00,  4.43it/s]100%|███████████████████████████████████████| 30/30 [00:06<00:00,  4.44it/s]
+[2025-03-31 01:07:06.031] 0 models unloaded.
+[2025-03-31 01:07:06.507] Prompt executed in 7.66 seconds
+[2025-03-31 01:07:06.683] [view] query: <MultiDictProxy('filename': 'Bevy_00004_.png', 'subfolder': '', 'type': 'output')>
+[2025-03-31 01:07:06.683] [view] filename: Bevy_00004_.png
+[2025-03-31 01:07:06.683] [view] output_dir: None
+[2025-03-31 01:07:06.683] [view] type: output
+[2025-03-31 01:07:06.683] [view] type: /home/slyedoc/code/p/sly_ref/art/output
+[2025-03-31 01:07:06.683] [view] output_dir: /home/slyedoc/code/p/sly_ref/art/output
+[2025-03-31 01:07:06.683] [view] full output_dir: /home/slyedoc/code/p/sly_ref/art/output/
+[2025-03-31 01:07:06.683] [view] filename: Bevy_00004_.png
+[2025-03-31 01:07:06.683] [view] file: /home/slyedoc/code/p/sly_ref/art/output/Bevy_00004_.png
+[2025-03-31 01:07:06.683] view file_extension: .png
+[2025-03-31 01:07:06.684] view content_type: image/png
+[2025-03-31 01:07:08.557] got prompt
+[2025-03-31 01:07:08.559] Requested to load SDXLClipModel
+[2025-03-31 01:07:08.898] loaded completely 4091.3610694885256 1560.802734375 True
+[2025-03-31 01:07:08.956] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.ff.net.2.weight shape '[640, 2560]' is invalid for input of size 6553600
+[2025-03-31 01:07:08.957] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.ff.net.2.weight shape '[640, 2560]' is invalid for input of size 6553600
+[2025-03-31 01:07:08.958] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.ff.net.2.weight shape '[640, 2560]' is invalid for input of size 6553600
+[2025-03-31 01:07:08.970] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:07:08.970] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:07:08.971] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:07:08.971] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:07:08.972] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:07:08.973] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:07:08.973] ERROR lora diffusion_model.input_blocks.5.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:07:08.974] ERROR lora diffusion_model.input_blocks.5.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:07:08.975] ERROR lora diffusion_model.input_blocks.4.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:07:08.976] ERROR lora diffusion_model.input_blocks.4.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:07:08.976] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.977] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.977] ERROR lora diffusion_model.output_blocks.5.1.proj_out.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.977] ERROR lora diffusion_model.output_blocks.5.1.proj_in.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.978] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.978] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.978] ERROR lora diffusion_model.output_blocks.4.1.proj_out.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.979] ERROR lora diffusion_model.output_blocks.4.1.proj_in.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.979] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.979] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.980] ERROR lora diffusion_model.output_blocks.3.1.proj_out.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.980] ERROR lora diffusion_model.output_blocks.3.1.proj_in.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.983] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.984] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_v.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.984] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.984] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_k.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.985] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.985] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_v.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.985] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.986] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_k.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.986] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.986] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_v.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.987] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:08.987] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_k.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:09.168] loaded completely 6488.12308959961 4897.0483474731445 True
+[2025-03-31 01:07:15.954] 100%|███████████████████████████████████████| 30/30 [00:06<00:00,  4.40it/s]100%|███████████████████████████████████████| 30/30 [00:06<00:00,  4.43it/s]
+[2025-03-31 01:07:16.936] Prompt executed in 8.38 seconds
+[2025-03-31 01:07:17.087] [view] query: <MultiDictProxy('filename': 'Bevy_00005_.png', 'subfolder': '', 'type': 'output')>
+[2025-03-31 01:07:17.087] [view] filename: Bevy_00005_.png
+[2025-03-31 01:07:17.087] [view] output_dir: None
+[2025-03-31 01:07:17.087] [view] type: output
+[2025-03-31 01:07:17.087] [view] type: /home/slyedoc/code/p/sly_ref/art/output
+[2025-03-31 01:07:17.087] [view] output_dir: /home/slyedoc/code/p/sly_ref/art/output
+[2025-03-31 01:07:17.087] [view] full output_dir: /home/slyedoc/code/p/sly_ref/art/output/
+[2025-03-31 01:07:17.087] [view] filename: Bevy_00005_.png
+[2025-03-31 01:07:17.087] [view] file: /home/slyedoc/code/p/sly_ref/art/output/Bevy_00005_.png
+[2025-03-31 01:07:17.087] view file_extension: .png
+[2025-03-31 01:07:17.087] view content_type: image/png
+[2025-03-31 01:07:28.983] got prompt
+[2025-03-31 01:07:28.986] Requested to load SDXLClipModel
+[2025-03-31 01:07:29.345] loaded completely 4095.7985694885256 1560.802734375 True
+[2025-03-31 01:07:29.405] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.ff.net.2.weight shape '[640, 2560]' is invalid for input of size 6553600
+[2025-03-31 01:07:29.406] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.ff.net.2.weight shape '[640, 2560]' is invalid for input of size 6553600
+[2025-03-31 01:07:29.408] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.ff.net.2.weight shape '[640, 2560]' is invalid for input of size 6553600
+[2025-03-31 01:07:29.419] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:07:29.420] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:07:29.421] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:07:29.421] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:07:29.422] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:07:29.423] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 983040
+[2025-03-31 01:07:29.423] ERROR lora diffusion_model.input_blocks.5.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:07:29.424] ERROR lora diffusion_model.input_blocks.5.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:07:29.425] ERROR lora diffusion_model.input_blocks.4.1.transformer_blocks.0.attn2.to_v.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:07:29.425] ERROR lora diffusion_model.input_blocks.4.1.transformer_blocks.0.attn2.to_k.weight shape '[640, 2048]' is invalid for input of size 491520
+[2025-03-31 01:07:29.426] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.426] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.427] ERROR lora diffusion_model.output_blocks.5.1.proj_out.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.427] ERROR lora diffusion_model.output_blocks.5.1.proj_in.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.427] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.428] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.428] ERROR lora diffusion_model.output_blocks.4.1.proj_out.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.428] ERROR lora diffusion_model.output_blocks.4.1.proj_in.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.429] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.429] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_out.0.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.429] ERROR lora diffusion_model.output_blocks.3.1.proj_out.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.430] ERROR lora diffusion_model.output_blocks.3.1.proj_in.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.433] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn2.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.433] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_v.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.434] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.434] ERROR lora diffusion_model.output_blocks.5.1.transformer_blocks.0.attn1.to_k.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.434] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn2.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.435] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_v.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.435] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.435] ERROR lora diffusion_model.output_blocks.4.1.transformer_blocks.0.attn1.to_k.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.436] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn2.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.436] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_v.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.436] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_q.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.437] ERROR lora diffusion_model.output_blocks.3.1.transformer_blocks.0.attn1.to_k.weight shape '[640, 640]' is invalid for input of size 1638400
+[2025-03-31 01:07:29.615] loaded completely 6492.56058959961 4897.0483474731445 True
+[2025-03-31 01:07:36.506] 100%|███████████████████████████████████████| 30/30 [00:06<00:00,  4.32it/s]100%|███████████████████████████████████████| 30/30 [00:06<00:00,  4.36it/s]
+[2025-03-31 01:07:37.494] Prompt executed in 8.51 seconds
+[2025-03-31 01:07:37.690] [view] query: <MultiDictProxy('filename': 'Bevy_00006_.png', 'subfolder': '', 'type': 'output')>
+[2025-03-31 01:07:37.690] [view] filename: Bevy_00006_.png
+[2025-03-31 01:07:37.690] [view] output_dir: None
+[2025-03-31 01:07:37.690] [view] type: output
+[2025-03-31 01:07:37.690] [view] type: /home/slyedoc/code/p/sly_ref/art/output
+[2025-03-31 01:07:37.690] [view] output_dir: /home/slyedoc/code/p/sly_ref/art/output
+[2025-03-31 01:07:37.690] [view] full output_dir: /home/slyedoc/code/p/sly_ref/art/output/
+[2025-03-31 01:07:37.690] [view] filename: Bevy_00006_.png
+[2025-03-31 01:07:37.690] [view] file: /home/slyedoc/code/p/sly_ref/art/output/Bevy_00006_.png
+[2025-03-31 01:07:37.690] view file_extension: .png
+[2025-03-31 01:07:37.690] view content_type: image/png
+[2025-03-31 01:07:41.916] got prompt
+[2025-03-31 01:07:43.667] Settings -> Mode=base, Device=cuda:0, Torchscript=enabled
+[2025-03-31 01:07:44.811] Loading pipeline components...: 100%|█████████| 6/6 [00:00<00:00, 10.71it/s]
+[2025-03-31 01:07:45.896] Loading model from /home/slyedoc/code/p/ComfyUI/models/diffusion_models/hy3dgen/hunyuan3d-dit-v2-0-fp16.safetensors
+[2025-03-31 01:07:48.112] guidance:  None
+[2025-03-31 01:08:20.183] Diffusion Sampling:: 100%|██████████████████| 50/50 [00:32<00:00,  1.47it/s]Diffusion Sampling:: 100%|██████████████████| 50/50 [00:32<00:00,  1.56it/s]
+[2025-03-31 01:08:20.183] latents shape:  torch.Size([1, 3072, 64])
+[2025-03-31 01:08:20.183] Allocated memory: memory=2.795 GB
+[2025-03-31 01:08:20.183] Max allocated memory: max_memory=4.980 GB
+[2025-03-31 01:08:20.183] Max reserved memory: max_reserved=5.000 GB
+[2025-03-31 01:08:21.133] 2025-03-31 01:08:21,133 - hy3dgen.shapgen - INFO - FlashVDMVolumeDecoding Resolution: [95, 190, 380]
+[2025-03-31 01:08:21.133] FlashVDMVolumeDecoding Resolution: [95, 190, 380]
+[2025-03-31 01:08:21.248] FlashVDM Volume Decoding: 100%|████████████| 32/32 [00:00<00:00, 558.60it/s]
+[2025-03-31 01:08:23.495] MC Surface Extractor
+[2025-03-31 01:08:25.135] Decoded mesh with 452207 vertices and 1512930 faces
+[2025-03-31 01:08:25.864] Removed floaters, resulting in 449803 vertices and 899770 faces
+[2025-03-31 01:08:26.451] Removed degenerate faces, resulting in 449803 vertices and 899770 faces
+[2025-03-31 01:08:34.570] Reduced faces, resulting in 24918 vertices and 50000 faces
+[2025-03-31 01:08:38.635] camera_distance: 1.45
+[2025-03-31 01:08:39.142] image in shape torch.Size([1, 512, 512, 3])
+[2025-03-31 01:08:42.334] 100%|███████████████████████████████████████| 50/50 [00:02<00:00, 21.00it/s]100%|███████████████████████████████████████| 50/50 [00:02<00:00, 17.38it/s]
+[2025-03-31 01:09:04.432] 100%|███████████████████████████████████████| 25/25 [00:20<00:00,  1.24it/s]100%|███████████████████████████████████████| 25/25 [00:20<00:00,  1.21it/s]
+[2025-03-31 01:09:10.304] Prompt executed in 88.39 seconds
+[2025-03-31 01:09:10.533] [view] query: <MultiDictProxy('filename': 'Bevy_00007_.glb', 'subfolder': '', 'type': 'output')>
+[2025-03-31 01:09:10.533] [view] filename: Bevy_00007_.glb
+[2025-03-31 01:09:10.533] [view] output_dir: None
+[2025-03-31 01:09:10.533] [view] type: output
+[2025-03-31 01:09:10.533] [view] type: /home/slyedoc/code/p/sly_ref/art/output
+[2025-03-31 01:09:10.533] [view] output_dir: /home/slyedoc/code/p/sly_ref/art/output
+[2025-03-31 01:09:10.534] [view] full output_dir: /home/slyedoc/code/p/sly_ref/art/output/
+[2025-03-31 01:09:10.534] [view] filename: Bevy_00007_.glb
+[2025-03-31 01:09:10.534] [view] file: /home/slyedoc/code/p/sly_ref/art/output/Bevy_00007_.glb
+[2025-03-31 01:09:10.534] view file_extension: .glb
+[2025-03-31 01:09:10.534] view content_type: model/gltf-binary

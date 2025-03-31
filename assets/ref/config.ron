@@ -1,0 +1,5 @@
+(
+    prefabs: [
+        /*[0]*/ (translation: (0.8137075, 10.547841, 12.626104), rotation: (0.0, 0.0, 0.0, 1.0), scale: 1.0, prefab: (name: "Bevy", workflow: TextToModel(seed: 2747569437, seed_random: true, prompt: "bevy, bird, 3d, real, clean, no background\n", num_faces: 50000, image: Some("ref/Bevy.png"), model: Some("ref/Bevy.glb")))),
+    ],
+)
